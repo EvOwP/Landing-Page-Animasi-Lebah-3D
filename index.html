@@ -2,10 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>XSourceCode | Next-Gen 3D Web Experiences</title>
-    <meta name="description" content="XSourceCode specializes in immersive 3D web animations and interactive experiences using Three.js and GSAP.">
-    <script type="module">import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XSourceCode | Next-Gen 3D Web Experiences</title>
+  <meta name="description"
+    content="XSourceCode specializes in immersive 3D web animations and interactive experiences using Three.js and GSAP.">
+  <script type="module">import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
 import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 import { gsap } from "https://cdn.skypack.dev/gsap";
 
@@ -163,77 +164,86 @@ window.addEventListener("resize", () => {
   camera.updateProjectionMatrix();
 });
 </script>
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <div class="content-fit">
-            <div class="logo">XSourceCode</div>
-            <nav>
-                <ul>
-                    <li><a href="#banner">Home</a></li>
-                    <li><a href="#description">About</a></li>
-                    <li><a href="#contact">Information</a></li>
-                </ul>
-            </nav>
-            <div class="hamburger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
-        </div>
-    </header>
-    <div class="section" id="banner">
-        <div class="content-fit">
-            <div class="title" data-before="XSourceCode">XSourceCode</div>
-        </div>
-        <img src="assets/flower.png" class="decorate" alt="" style="width: 50vw; bottom: 0; right: 0;">
-        <img src="assets/leaf.png" class="decorate" alt="" style="width: 30vw; bottom: 0; left: 0;">
+  <header>
+    <div class="content-fit">
+      <div class="logo">XSourceCode</div>
+      <nav>
+        <ul>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#description">About</a></li>
+          <li><a href="#contact">Information</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
     </div>
-    <div class="section" id="intro">
-        <div class="content-fit">
-            <div class="number">01</div>
-            <div class="des">
-                <div class="title">Next-Gen 3D Web Experiences</div>
-                <p>At XSourceCode, we bridge the gap between imagination and reality. Our specialized team crafts immersive 3D animations that transform static websites into dynamic digital landscapes. By leveraging cutting-edge technologies like Three.js and GSAP, we deliver high-performance visual storytelling that captivates and converts.</p>
-            </div>
-        </div>
+  </header>
+  <div class="section" id="banner">
+    <div class="content-fit">
+      <div class="title" data-before="XSourceCode">XSourceCode</div>
     </div>
-    <div class="section" id="description">
-        <div class="content-fit">
-            <div class="number">02</div>
-            <div class="des">
-                <div class="title">XSourceCode</div>
-                <p>Innovation is at the heart of everything we do. XSourceCode is dedicated to pushing the boundaries of web development by integrating realistic 3D models and fluid animations. Whether you are looking for a stunning hero section or a fully interactive 3D product showcase, we provide the technical expertise to bring your vision to life with precision and style.</p>
-            </div>
-        </div>
-        <img src="assets/leaf1.png" class="decorate" alt="" style="width: 70vw; bottom: 0; right: 0;">
+    <img src="assets/flower.png" class="decorate" alt="" style="width: 50vw; bottom: 0; right: 0;">
+    <img src="assets/leaf.png" class="decorate" alt="" style="width: 30vw; bottom: 0; left: 0;">
+  </div>
+  <div class="section" id="intro">
+    <div class="content-fit">
+      <div class="number">01</div>
+      <div class="des">
+        <div class="title">Next-Gen 3D Web Experiences</div>
+        <p>At XSourceCode, we bridge the gap between imagination and reality. Our specialized team crafts immersive 3D
+          animations that transform static websites into dynamic digital landscapes. By leveraging cutting-edge
+          technologies like Three.js and GSAP, we deliver high-performance visual storytelling that captivates and
+          converts.</p>
+      </div>
     </div>
-    <div class="section" id="contact">
-        <div class="content-fit">
-            <div class="number">03</div>
-            <div class="des">
-                <div class="title">OTHER INFORMATION</div>
-                <div class="info-grid">
-                    <div class="info-item">
-                        <h3>3D Integration</h3>
-                        <p>We specialize in embedding high-fidelity 3D models directly into your web applications, ensuring a seamless blend of technology and art.</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>Interactive UX</h3>
-                        <p>Our designs go beyond the screen, creating interactive environments where users can engage with your brand in three dimensions.</p>
-                    </div>
-                    <div class="info-item">
-                        <h3>Modern Tech Stack</h3>
-                        <p>Utilizing the power of Three.js, GSAP, and WebGL to deliver high-performance visual experiences across all modern browsers.</p>
-                    </div>
-                </div>
-                <div class="sign">XSourceCode</div>
-            </div>
-        </div>
+  </div>
+  <div class="section" id="description">
+    <div class="content-fit">
+      <div class="number">02</div>
+      <div class="des">
+        <div class="title">XSourceCode</div>
+        <p>Innovation is at the heart of everything we do. XSourceCode is dedicated to pushing the boundaries of web
+          development by integrating realistic 3D models and fluid animations. Whether you are looking for a stunning
+          hero section or a fully interactive 3D product showcase, we provide the technical expertise to bring your
+          vision to life with precision and style.</p>
+      </div>
     </div>
-    <div id="container3D"></div>
+    <img src="assets/leaf1.png" class="decorate" alt="" style="width: 70vw; bottom: 0; right: 0;">
+  </div>
+  <div class="section" id="contact">
+    <div class="content-fit">
+      <div class="number">03</div>
+      <div class="des">
+        <div class="title">OTHER INFORMATION</div>
+        <div class="info-grid">
+          <div class="info-item">
+            <h3>3D Integration</h3>
+            <p>We specialize in embedding high-fidelity 3D models directly into your web applications, ensuring a
+              seamless blend of technology and art.</p>
+          </div>
+          <div class="info-item">
+            <h3>Interactive UX</h3>
+            <p>Our designs go beyond the screen, creating interactive environments where users can engage with your
+              brand in three dimensions.</p>
+          </div>
+          <div class="info-item">
+            <h3>Modern Tech Stack</h3>
+            <p>Utilizing the power of Three.js, GSAP, and WebGL to deliver high-performance visual experiences across
+              all modern browsers.</p>
+          </div>
+        </div>
+        <div class="sign">XSourceCode</div>
+      </div>
+    </div>
+  </div>
+  <div id="container3D"></div>
 </body>
 
 </html>
